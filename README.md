@@ -18,10 +18,11 @@ See [ChangesTrackingTest](src/main/java/org/open_structures/changes_tracking/Cha
 
 `ChangesTracking` is [Restorable](https://github.com/denissudak/memento):
 
+    ChangesTracking<Integer> changesTracking = new ChangesTracking<>();
     changesTracking.deleted(1);
     changesTracking.added(2);
     ChangesTracking.State<Integer> changesTrackingState = changesTracking.getState();
     changesTracking.added(3);
     changesTracking.restore(changesTrackingState);
 
-At the end `changesTracking' would only have tracking data for 1 and 2.
+At the end `changesTracking` would only have tracking data for 1 and 2.
