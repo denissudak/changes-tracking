@@ -10,11 +10,10 @@
 ```
 
 Imagine you have a set with slow add/remove operations (e.g. DB or an external API).
-When working with that set you might want to do things differently.
-For example, you might want to bulk your changes before "flushing" it, or try to avoid making slow calls to check if an
+When working with that set you might want to bulk your changes before "flushing" it, or try to avoid making slow calls to check if an
 element is in the set.
 
-`ChangesTracking` helps to determine added, removed and updated elements. Updated elements are the ones that were first deleted and re-added later.
+`ChangesTracking` helps to determine added, removed and updated elements (those that were first deleted and then re-added).
 See [ChangesTrackingTest](src/main/java/org/open_structures/changes_tracking/ChangesTracking.java) for examples. 
 
 `ChangesTracking` is [Restorable](https://github.com/denissudak/memento):

@@ -11,9 +11,9 @@
     <description>Tracks changes of the set. Java implementation</description>
     <url>open-structures.org</url>
     <scm>
-        <connection>scm:git:git://github.com/open-structures/changes-tracking.git</connection>
-        <developerConnection>scm:git:ssh://github.com:open-structures/changes-tracking.git</developerConnection>
-        <url>https://github.com/open-structures/changes-tracking/tree/main</url>
+        <connection>scm:git:git://github.com/denissudak/changes-tracking.git</connection>
+        <developerConnection>scm:git:ssh://github.com:denissudak/changes-tracking.git</developerConnection>
+        <url>https://github.com/denissudak/changes-tracking?tab=readme-ov-file</url>
     </scm>
     <properties>
         <java.version>17</java.version>
