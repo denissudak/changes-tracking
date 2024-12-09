@@ -14,7 +14,7 @@ When working with that set you might want to bulk your changes before "flushing"
 element is in the set.
 
 `ChangesTracking` helps to determine added, removed and updated elements (those that were first deleted and then re-added).
-See [ChangesTrackingTest](src/main/java/org/open_structures/changes_tracking/ChangesTracking.java) for examples. 
+See [ChangesTrackingTest](src/test/java/org/open_structures/changes_tracking/ChangesTrackingTest.java) for examples. 
 
 `ChangesTracking` is [Restorable](https://github.com/denissudak/memento):
 
